@@ -106,6 +106,7 @@
 				0E0BDF832B888C220054B563 /* Frameworks */,
 				0E0BDF842B888C220054B563 /* Resources */,
 				C98AB48E2CB01DECA1FE206B /* [CP] Embed Pods Frameworks */,
+				0E0BDF9F2B88949A0054B563 /* R.Swift */,
 			);
 			buildRules = (
 			);
@@ -164,6 +165,26 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		0E0BDF9F2B88949A0054B563 /* R.Swift */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 8;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = R.Swift;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				$SRCROOT/R.generated.swift,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+			shellPath = /bin/sh;
+			shellScript = "\"$PODS_ROOT/R.swift/rswift\" generate \"$SRCROOT/R.generated.swift”\n";
+		};
 		C98AB48E2CB01DECA1FE206B /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;

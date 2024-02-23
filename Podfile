@@ -9,6 +9,7 @@ target 'ExpenseManagement' do
   pod 'FirebaseFirestore'
   pod 'FirebaseFirestoreSwift'
   pod 'FirebaseStorage'
+  pod 'R.swift'
   # Pods for ExpenseManagement
 
 end

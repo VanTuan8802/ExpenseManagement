@@ -810,6 +810,7 @@ PODS:
   - nanopb/decode (2.30909.1)
   - nanopb/encode (2.30909.1)
   - PromisesObjC (2.3.1)
+  - R.swift (7.3.2)
   - RecaptchaInterop (100.0.0)
 
 DEPENDENCIES:
@@ -818,6 +819,7 @@ DEPENDENCIES:
   - FirebaseFirestore
   - FirebaseFirestoreSwift
   - FirebaseStorage
+  - R.swift
 
 SPEC REPOS:
   trunk:
@@ -844,6 +846,7 @@ SPEC REPOS:
     - leveldb-library
     - nanopb
     - PromisesObjC
+    - R.swift
     - RecaptchaInterop
 
 SPEC CHECKSUMS:
@@ -870,8 +873,9 @@ SPEC CHECKSUMS:
   leveldb-library: e74c27d8fbd22854db7cb467968a0b8aa1db7126
   nanopb: d4d75c12cd1316f4a64e3c6963f879ecd4b5e0d5
   PromisesObjC: c50d2056b5253dadbd6c2bea79b0674bd5a52fa4
+  R.swift: 0af0d882f49f03711415cb4e5215daa977d8a480
   RecaptchaInterop: 7d1a4a01a6b2cb1610a47ef3f85f0c411434cb21
 
-PODFILE CHECKSUM: 999f1ed20fb9b4bec44cfa646d5a0b9c98bba610
+PODFILE CHECKSUM: 60fd2cb45f3366d5d81eaa735ec1eeedae02f36c
 
 COCOAPODS: 1.12.1
